@@ -1,0 +1,25 @@
+/* Add this CSS to your styles or CSS file */
+.slider-container {
+    margin: 0; /* Set margin to 0 on both left and right */
+  }
+  
+  .slick-prev,
+  .slick-next {
+    display: none !important; /* Hide the arrows */
+  }
+  .slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: yellow !important; 
+}
+.slick-dots {
+    
+    bottom: -51px !important; }
+
+.slick-dots li button:before {
+    font-family: 'slick' !important;
+    font-size: 14px !important;
+
+}
+.slick-dots li button:hover:before {
+    color: yellow;
+}
