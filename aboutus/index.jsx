@@ -5,7 +5,7 @@ import img from '../aboutus/img.png';
 const About = () => {
   return (
     <>
-      <div className='w-full h-screen grid grid-cols-1 lg:grid-cols-2 text-white border-null p-4 ' style={{ fontFamily: "Roboto Slab, sans-serif" }}>
+      <div className='w-full h-full  grid grid-cols-1 lg:grid-cols-2 text-white border-null p-4 my-12 bg-indigo-200' style={{ fontFamily: "Roboto Slab, sans-serif" }}>
         <div className='h-screen flex items-center justify-center lg:justify-center'>
           <img className='h-full object-contain' src={img} alt='CEO' />
         </div>
@@ -26,18 +26,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div>
-          <div>
-            <h3>Masters in Management</h3>
-            <h2>MBA</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora</p>
-          </div>
-          <div>
-            <h3>Masters in Management</h3>
-            <h2>MBA</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at. Class aptent taciti sociosqu ad litora</p>
-          </div>
-        </div>
+       
 
       </div>
 

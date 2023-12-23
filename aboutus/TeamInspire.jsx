@@ -30,9 +30,10 @@ export default function TeamsInspire() {
     return (
 
         <>
-            <div className="container  my-8 lg:w-[90%]" style={{ fontFamily: "Roboto Slab, sans-serif" }}>
+            <div className="bg-yellow-200 my-12 flex justify-center " style={{ fontFamily: "Roboto Slab, sans-serif" }}>
+                <div className='w-[85%]'>
                 <div className="flex justify-center ">
-                    <h1 className="text-4xl leading-normal">Component Instructors & Lecturers </h1>
+                    <h1 className="text-4xl leading-normal">The Team That Inspires! </h1>
                 </div>
                 <div className="flex justify-center my-5"><img src={logo} alt="" className="ml-4" /></div>
 
@@ -41,19 +42,19 @@ export default function TeamsInspire() {
                         <div key={value.id} >
                             <div className="flex flex-col p-4 border-1 border-gray-200 overflow-hidden ">
 
-                                <div className='flex flex-row '>
+                                <div className='flex flex-row'>
 
-                                    <div className='w-[80px] h-[80px]' >
-                                        <img className='w-full h-full object-fill object-cover' src={value.image} alt="" />
+                                    <div className='w-[100px] h-[100px]' >
+                                        <img className=' object-fill object-cover' src={value.image} alt="" />
                                     </div>
 
-                                    <div className='flex flex-col text-left mx-4'>
-                                        <h1 className='text-xl font-semibold '>{value.name}</h1>
+                                    <div className='flex flex-col text-left mx-4 '>
+                                        <h1 className='text-lg sm:text-sm font-semibold '>{value.name}</h1>
                                         <h3 className='my-2'>{value.position}</h3>
                                     </div>
 
                                 </div>
-                                <hr class="h-1 my-4  bg-gray-200 border-0   bg-red-900"></hr>
+                                <hr className="h-1 my-4  bg-[#841111] border-0   "></hr>
 
 
                                 <div className="mt-2 text-left  ">
@@ -69,6 +70,7 @@ export default function TeamsInspire() {
                         </div>
 
                     ))}
+                </div>
                 </div>
             </div>
 
